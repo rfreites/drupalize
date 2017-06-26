@@ -7,3 +7,10 @@ parameters:
 services:
   cache.backend.null:
     class: Drupal\Core\Cache\NullBackendFactory
+
+#override drupal core services
+parameters:
+  dino.roar.user_key_value_cache: false
+  twig.config:
+    debug: true
+    cache: false

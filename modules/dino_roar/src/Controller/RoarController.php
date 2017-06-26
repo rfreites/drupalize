@@ -32,9 +32,9 @@ class RoarController extends ControllerBase
 
         $roar = $this->roarGenerator->getRoar($count);
 
-        //set set value
+//        set value
 //        $keyValueStore->set('roar_string', $roar);
-
+//        get value
 //        $roar = $keyValueStore->get('roar_string');
 
         $this->loggerFactory->get('default')
