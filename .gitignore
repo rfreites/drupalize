@@ -43,4 +43,4 @@ core/phpcs.xml
 core/phpunit.xml
 
 # Iginore PHPSTORM setting IDE
-.idea
+.idea/
